@@ -15,3 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/rota', 'RotaSlot\RotaController@index');
+
+
+Route::get('/alpha', function () {
+    return view('alpha');
+});
+
+Route::get('/beta', function () {
+    return view('beta');
+});
