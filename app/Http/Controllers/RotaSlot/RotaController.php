@@ -17,7 +17,7 @@ class RotaController extends Controller
         $rotaSlot->getShiftTimes();
 
         return view('Rota.index', [
-            'slot' => $rotaSlotStaff
+            'rota' => $rotaSlotStaff
         ]);
     }
 

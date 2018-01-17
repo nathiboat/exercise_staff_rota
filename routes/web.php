@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'RotaSlot\RotaController@index');
+Route::get('/rota', 'RotaSlot\RotaController@json');
 
 
 Route::get('/alpha', function () {
