@@ -11,7 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'RotaSlot\RotaController@index');
+
+
+Route::get('/alpha', function () {
+    return view('alpha');
 });
-Route::get('/rota', 'RotaSlot\RotaController@index');
+
+Route::get('/beta', function () {
+    return view('beta');
+});
