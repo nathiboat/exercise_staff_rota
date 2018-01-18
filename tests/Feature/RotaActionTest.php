@@ -22,6 +22,6 @@ class RotaActionTest extends TestCase
     {
         $rotaSlotStaff = new RotaSlotStaff();
 
-        $this->assertInternalType('array',$rotaSlotStaff);
+        $this->assertInternalType('array',$rotaSlotStaff::all());
     }
 }

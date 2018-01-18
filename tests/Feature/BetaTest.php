@@ -15,6 +15,6 @@ class BetaTest extends TestCase
     }
     public function testDisplaysBeta()
     {
-        $this->get('/beta')->see('Beta');
+        $this->get('/beta')->assertSeeText('Beta');
     }
 }
