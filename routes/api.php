@@ -13,6 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/rotas', 'Api\RotaSlotController@index');
+Route::get('/rotas/{id}', 'Api\RotaSlotController@show');
+Route::get('/rotas/{id}/edit', 'Api\RotaSlotController@edit');
+Route::patch('/rotas/{id}', 'Api\RotaSlotController@update');
+Route::get('/rotas/create', 'Api\RotaSlotController@create');
+Route::delete('/rotas/{id}', 'Api\RotaSlotController@destroy');
