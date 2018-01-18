@@ -987,7 +987,7 @@ window.Vue = __webpack_require__(35);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', __webpack_require__(38));
+Vue.component('rota-slot', __webpack_require__(53));
 
 var app = new Vue({
   el: '#app'
@@ -42776,53 +42776,7 @@ exports.clearImmediate = clearImmediate;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(4)))
 
 /***/ }),
-/* 38 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(39)
-/* script */
-var __vue_script__ = __webpack_require__(40)
-/* template */
-var __vue_template__ = __webpack_require__(41)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources\\assets\\js\\components\\ExampleComponent.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0ca92eac", Component.options)
-  } else {
-    hotAPI.reload("data-v-0ca92eac", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
+/* 38 */,
 /* 39 */
 /***/ (function(module, exports) {
 
@@ -42932,7 +42886,636 @@ module.exports = function normalizeComponent (
 
 
 /***/ }),
-/* 40 */
+/* 40 */,
+/* 41 */,
+/* 42 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(39)
+/* script */
+var __vue_script__ = __webpack_require__(54)
+/* template */
+var __vue_template__ = __webpack_require__(61)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\RotaSlot.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-d98c8602", Component.options)
+  } else {
+    hotAPI.reload("data-v-d98c8602", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 54 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_rota_components_RotaTable_vue__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_rota_components_RotaTable_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__app_rota_components_RotaTable_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_rota_components_RotaShift_vue__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_rota_components_RotaShift_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__app_rota_components_RotaShift_vue__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+
+    props: ['rotas'],
+    components: {
+        'rota-table': __WEBPACK_IMPORTED_MODULE_0__app_rota_components_RotaTable_vue___default.a,
+        'rota-shift': __WEBPACK_IMPORTED_MODULE_1__app_rota_components_RotaShift_vue___default.a
+    },
+    mounted: function mounted() {
+        console.log('Component mounted.');
+    }
+});
+
+/***/ }),
+/* 55 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(39)
+/* script */
+var __vue_script__ = __webpack_require__(56)
+/* template */
+var __vue_template__ = __webpack_require__(57)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\app\\rota\\components\\RotaTable.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-7f6d69e6", Component.options)
+  } else {
+    hotAPI.reload("data-v-7f6d69e6", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 56 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            today: '',
+            rotas: {},
+            selectedDay: 0,
+            shift: {},
+            selectedTime: {
+                starttime: '11:00:00',
+                endtime: '20:00:00'
+            }
+        };
+    },
+
+    computed: {
+        shifts: function shifts() {
+            var unique = {};
+            return unique;
+        },
+        days: function days() {
+            var arr = _.uniqBy(this.rotas, function (e) {
+                return e.daynumber;
+            });
+            arr = _.keyBy(arr, function (o) {
+                return o.daynumber;
+            });
+
+            return arr;
+        },
+        displayShift: function displayShift() {
+
+            var display;
+            var selected = this.selectedTime;
+            var day = this.selectedDay;
+            display = _.filter(this.rotas, function (item) {
+                return item.starttime == selected.starttime && item.endtime == selected.endtime && item.daynumber == day;
+            });
+
+            return display;
+        },
+        sum: function sum() {
+            var total = 0;
+            for (var i = 0, _len = this.displayShift.length; i < _len; i++) {
+                total += this.displayShift[i].workhours;
+            }
+            return total;
+        }
+    },
+    methods: {
+        setShift: function setShift(start, end) {
+            this.selectedTime = {
+                starttime: start,
+                endtime: end
+            };
+        },
+        setDay: function setDay(day) {
+            this.selectedDay = day;
+        }
+    },
+    mounted: function mounted() {
+        var _this = this;
+
+        axios.get('/api/rotas').then(function (response) {
+            _this.rotas = response.data;
+        });
+
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth() + 1;
+        var yyyy = today.getFullYear();
+
+        if (dd < 10) {
+            dd = '0' + dd;
+        }
+
+        if (mm < 10) {
+            mm = '0' + mm;
+        }
+        this.today = mm + '/' + dd + '/' + yyyy;
+    }
+});
+
+/***/ }),
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "mb-4" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c(
+            "div",
+            {
+              staticClass: "btn-group btn-group-toggle",
+              attrs: { "data-toggle": "buttons" }
+            },
+            [
+              _vm._m(0),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "btn btn-secondary active",
+                  on: {
+                    click: function($event) {
+                      _vm.setShift("11:00:00", "20:00:00")
+                    }
+                  }
+                },
+                [
+                  _c("input", { attrs: { type: "radio", name: "options" } }),
+                  _vm._v(" 11:00 - 20:00\n                   ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "btn btn-secondary",
+                  on: {
+                    click: function($event) {
+                      _vm.setShift("15:00:00", "23:00:00")
+                    }
+                  }
+                },
+                [
+                  _c("input", { attrs: { type: "radio", name: "options" } }),
+                  _vm._v(" 15:00 - 23:00\n                   ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "btn btn-secondary",
+                  on: {
+                    click: function($event) {
+                      _vm.setShift("17:00:00", "21:00:00")
+                    }
+                  }
+                },
+                [
+                  _c("input", { attrs: { type: "radio", name: "options" } }),
+                  _vm._v(" 17:00 - 21:00\n                   ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "btn btn-secondary",
+                  on: {
+                    click: function($event) {
+                      _vm.setShift("19:00:00", "03:00:00")
+                    }
+                  }
+                },
+                [
+                  _c("input", { attrs: { type: "radio", name: "options" } }),
+                  _vm._v(" 19:00 - 03:00\n                   ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "btn btn-secondary",
+                  on: {
+                    click: function($event) {
+                      _vm.setShift("", "")
+                    }
+                  }
+                },
+                [
+                  _c("input", { attrs: { type: "radio", name: "options" } }),
+                  _vm._v(" All\n                   ")
+                ]
+              )
+            ]
+          )
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-1" }, [
+        _c(
+          "div",
+          { staticClass: "btn-group-vertical" },
+          [
+            _c(
+              "button",
+              { staticClass: "btn btn-primary", attrs: { type: "button" } },
+              [_vm._v("\n                    Day\n                ")]
+            ),
+            _vm._v(" "),
+            _vm._l(_vm.days, function(day) {
+              return _c(
+                "button",
+                {
+                  staticClass: "btn btn-secondary ",
+                  class: day.daynumber == _vm.selectedDay ? " active" : "",
+                  attrs: { type: "button" },
+                  on: {
+                    click: function($event) {
+                      _vm.setDay(day.daynumber)
+                    }
+                  }
+                },
+                [
+                  _vm._v(
+                    "\n                    " +
+                      _vm._s(day.daynumber) +
+                      "\n                "
+                  )
+                ]
+              )
+            })
+          ],
+          2
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-11" }, [
+        _c("table", { staticClass: "table table-bordered" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _c(
+            "tbody",
+            [
+              _vm._l(_vm.displayShift, function(rota) {
+                return _vm.displayShift != {}
+                  ? _c("tr", [
+                      _c("th", { attrs: { scope: "row" } }, [
+                        _vm._v(_vm._s(rota.id))
+                      ]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(rota.rotaid))]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(rota.daynumber))]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(rota.staffid))]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(rota.slottype))]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(rota.starttime))]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(rota.endtime))]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(rota.workhours))])
+                    ])
+                  : _c("tr", [
+                      _c("td", { attrs: { colspan: "8" } }, [
+                        _vm._v(
+                          "\n                            No data\n                        "
+                        )
+                      ])
+                    ])
+              }),
+              _vm._v(" "),
+              _c("tr", [
+                _c("td", { attrs: { colspan: "7" } }, [_vm._v("Total")]),
+                _vm._v(" "),
+                _c("td", [_vm._v(_vm._s(_vm.sum) + " Hours")])
+              ]),
+              _vm._v(" "),
+              _c("tr", [
+                _c("td", { attrs: { colspan: "7" } }),
+                _vm._v(" "),
+                _c("td", [_vm._v(_vm._s(_vm.sum * 60) + " minuts")])
+              ])
+            ],
+            2
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { staticClass: "btn btn-primary active" }, [
+      _c("input", { attrs: { type: "radio", name: "options" } }),
+      _vm._v(" Shift Time\n                   ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("ID")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Rota ID")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Day Number")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Staff ID")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Slot Type")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Start Time")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("End Time")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Work Hours")])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-7f6d69e6", module.exports)
+  }
+}
+
+/***/ }),
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(39)
+/* script */
+var __vue_script__ = __webpack_require__(59)
+/* template */
+var __vue_template__ = __webpack_require__(60)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\app\\rota\\components\\RotaShift.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-2b33209a", Component.options)
+  } else {
+    hotAPI.reload("data-v-2b33209a", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42955,13 +43538,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
-        console.log('Component mounted.');
-    }
+    props: ['rotas']
 });
 
 /***/ }),
-/* 41 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -42975,22 +43556,52 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-8 col-md-offset-2" }, [
-          _c("div", { staticClass: "panel panel-default" }, [
-            _c("div", { staticClass: "panel-heading" }, [
-              _vm._v("Example Component")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "panel-body" }, [
-              _vm._v(
-                "\n                    I'm an example component!!\n                "
-              )
-            ])
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "btn-group btn-group-toggle",
+          attrs: { "data-toggle": "buttons" }
+        },
+        [
+          _c("label", { staticClass: "btn btn-secondary active" }, [
+            _c("input", {
+              attrs: {
+                type: "radio",
+                name: "options",
+                id: "option1",
+                autocomplete: "off",
+                checked: ""
+              }
+            }),
+            _vm._v(" Active\n        ")
+          ]),
+          _vm._v(" "),
+          _c("label", { staticClass: "btn btn-secondary" }, [
+            _c("input", {
+              attrs: {
+                type: "radio",
+                name: "options",
+                id: "option2",
+                autocomplete: "off"
+              }
+            }),
+            _vm._v(" Radio\n        ")
+          ]),
+          _vm._v(" "),
+          _c("label", { staticClass: "btn btn-secondary" }, [
+            _c("input", {
+              attrs: {
+                type: "radio",
+                name: "options",
+                id: "option3",
+                autocomplete: "off"
+              }
+            }),
+            _vm._v(" Radio\n        ")
           ])
-        ])
-      ])
+        ]
+      )
     ])
   }
 ]
@@ -42999,15 +43610,42 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-0ca92eac", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-2b33209a", module.exports)
   }
 }
 
 /***/ }),
-/* 42 */
-/***/ (function(module, exports) {
+/* 61 */
+/***/ (function(module, exports, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12 col-md-offset-2" }, [
+        _c("div", { staticClass: "panel panel-default" }, [
+          _c(
+            "div",
+            { staticClass: "panel-body" },
+            [_c("rota-table", { attrs: { rotas: _vm.rotas } })],
+            1
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-d98c8602", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);
