@@ -12,5 +12,15 @@ For example, a value of "45" under a day would represent that there are a total 
 Create a view to display the output as follows....
 Display the shift times per shift (start and end times) in a table, (days in columns, staff in rows)
 At the bottom of each day, Show the total number of hours/minutes worked on that day.
+## About this project
+PHP Framework **Laravel** and try to follow stategy pattern
+
+CSS framework **Bootstrap**
+  
+JS Framework **Vuejs**  
+
+## Installation
+this project run via composer please run **composer install** in the command line to install the project
 
 ## Testing 
+run **phpunit** for testing in case you don't have phpunit installed globally run **./vendor/bin/phpunit**
